@@ -5,12 +5,18 @@ License: Creative Commons Attribution 3.0 Unported
 License URL: http://creativecommons.org/licenses/by/3.0/
 -->
 <!DOCTYPE html>
-<?php session_start(); ?>
+<?php session_start();
+include 'lin.php';
+includHad();
+phpIn();
+if (!isset($_SESSION["email"])) {
+// 	set("log.php");
+}
+?>
 <html>
 
 <head>
 	<title>Fascinate Flat Responsive Widget Template :: w3layouts</title>
-	<?php include 'lin.php' ?>
 	<!-- custom-theme -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -157,7 +163,6 @@ span.psw {
 </head>
 
 <body>
-	<?php includHad(); phpIn();?>
 
 	<h1 class="agile-head text-center">fascinate</h1>
 	<div class="container-w3">

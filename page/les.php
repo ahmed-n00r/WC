@@ -44,6 +44,10 @@
     top: 200px;
     background-color: #555
 }
+#cal {
+    top: 20px;
+    background-color: #4CAF50;
+}
 </style>
 </head>
 <body>
@@ -54,6 +58,7 @@
     <a href="cal.php" id="blog">Blog</a>
     <a href="log.php" id="projects">Projects</a>
     <a href="pdata.php" id="contact">Contact</a>
+    <a href="calcu.php" id="cal">calcultor</a>
   </div>
 
 </body>

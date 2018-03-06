@@ -1,16 +1,5 @@
 <?php
 
-
-function includCss(){
-	// include 'page\name.php';
-	echo '<link href="css/name.css" rel="stylesheet">';
- }
-
- function includLesCss(){
- 	// include 'page\name.php';
- 	echo '<link href="css/les.css" rel="stylesheet">';
-  }
-
  function includHad(){
 	 include 'page\les.php';
  }
