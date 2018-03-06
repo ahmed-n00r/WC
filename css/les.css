@@ -1,5 +1,5 @@
 #mySidenav a {
-    position: absolute;
+     position: absolute;
     left: -80px;
     transition: 0.3s;
     padding: 15px;
@@ -17,6 +17,11 @@
 #about {
     top: 20px;
     background-color: #4CAF50;
+}
+
+#hom {
+    top: 20px;
+    background-color: #ff9800;
 }
 
 #blog {
